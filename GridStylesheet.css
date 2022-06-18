@@ -1,0 +1,27 @@
+*{margin:0; Padding:0}
+body{background-color: darkolivegreen;}
+
+
+ main{display: grid; grid-template-areas: 'a a b' 
+'c  d d '
+'c e e'
+;
+gap: 4px;
+} 
+
+
+
+.item-a{background-color: rgb(235, 76, 14); grid-area: a;
+}
+
+
+.item-b{background-color: rgba(219, 112, 12, 0.822); grid-area: b;}
+
+
+.item-c{background-color: rgb(138, 218, 19); grid-area: c;}
+
+.item-d{background-color: rgba(94, 221, 215, 0.685); grid-area: d;}
+.item-e{background-color: rgb(94, 221, 215); grid-area: e;}
+
+main div { Padding:2em;
+}
